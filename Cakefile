@@ -8,7 +8,7 @@
 # * docs  - generates annotated documentation using docco
 # * clean - clean generated .js files
 files = [
-  'lib'
+  '.'
   'src'
 ]
 
@@ -22,10 +22,10 @@ catch err
   which = null
 
 # ANSI Terminal Colors
-bold = '\x1b[0;1m'
-green = '\x1b[0;32m'
-reset = '\x1b[0m'
-red = '\x1b[0;31m'
+bold = `'\x1b[0;1m'`
+green = `'\x1b[0;32m'`
+reset = `'\x1b[0m'`
+red = `'\x1b[0;31m'`
 
 # Cakefile Tasks
 #
